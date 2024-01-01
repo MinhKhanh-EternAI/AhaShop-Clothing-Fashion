@@ -768,16 +768,15 @@ ul.dropdown-content li {
     justify-content: space-between;
 }
 
-.go-to-checkout button, .return-to-shop button {
-    width: 200px;
-    height: 50px;
+.go-to-checkout a, .return-to-shop a {
+    color: #fff;
     margin: 20px 0;
     background-color: #00b1b7;
     border: none;
     padding: 10px 20px;
 }
 
-.return-to-shop a, .return-to-shop a:hover, .go-to-checkout a, .go-to-checkout a:hover {
+.return-to-shop a:hover, .go-to-checkout a:hover {
     color: #fff;
 }
 
