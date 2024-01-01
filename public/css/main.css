@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Playfair+Display:wght@700&family=Raleway&display=swap');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55?styles=16008');
+
+/*
+font-family: 'Maven Pro', sans-serif;           all
+font-family: 'Helvetica Neue', sans-serif;      notice
+font-family: 'Raleway', sans-serif;             btn, seacrh, in4 (footer)
+font-family: 'Playfair Display', serif;         slide
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    background: #fff;
+    outline: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: #666;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+a {  
+    display: inline-block;
+    position: relative;
+    outline: none;
+    color: #666;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
+svg {
+    fill: #666;
+}
+
+svg:hover, a:hover {
+    color: #00b1b7;
+    fill: #00b1b7;
+}
+
+
+li {
+    display: inline-block;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+i {
+    font-family: "FontAwesome";
+    font-size: 20px;
+}
+
+button {
+    font-family: 'Raleway', sans-serif; 
+}
