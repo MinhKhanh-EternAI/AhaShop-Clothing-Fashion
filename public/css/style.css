@@ -577,7 +577,9 @@ ul.dropdown-content li {
     padding: 10px;
 }
 
-.btn-value,.btn-add-to-cart, .btn-buy-now  {
+.btn-value,
+.btn-add-to-cart,
+.btn-buy-now {
     padding: 5px 5px 5px 0;
 }
 
@@ -657,6 +659,12 @@ ul.dropdown-content li {
 }
 
 /* ------------- products ------------- */
+.sidebar-cart {
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
 .head p {
     font-size: 30px;
 }
@@ -670,12 +678,11 @@ ul.dropdown-content li {
 
 
 
-.cart-item{
+.cart-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    width:  800px;
     margin: 10px 10px;
     border-bottom: 1px solid #aaa;
 }
@@ -701,11 +708,12 @@ ul.dropdown-content li {
 .foot {
     display: flex;
     align-items: center;
-    padding: 15px 0 15px 200px;
-   
+    justify-content: center;
+
 }
 
 .foot h2 {
+    white-space: nowrap;
     font-size: 20px;
     padding-left: 20px;
 }
@@ -715,3 +723,61 @@ ul.dropdown-content li {
     padding-left: 20px;
     font-weight: 700;
 }
+
+
+/* ------------- cart ------------- */
+.process-step-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.process-step {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.process-step span {
+    padding: 0 10px;
+}
+
+.step-number {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+    font-size: 18px;
+    color: #fff;
+}
+
+.process-step-wrap div:nth-child(1) .step-number {
+    background-color: #00b1b7;
+}
+
+.step-name {
+    font-size: 18px;
+}
+
+.btn-goshop-checkout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.go-to-checkout button, .return-to-shop button {
+    width: 200px;
+    height: 50px;
+    margin: 20px 0;
+    background-color: #00b1b7;
+    border: none;
+    padding: 10px 20px;
+}
+
+.return-to-shop a, .return-to-shop a:hover, .go-to-checkout a, .go-to-checkout a:hover {
+    color: #fff;
+}
+
