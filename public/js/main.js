@@ -32,7 +32,7 @@ const product_ap = [
     {
         id_ap: 0,
         image_ap: './public/image/product-1.jpg',
-        title_ap: 'Minty',
+        title_ap: 'Minty Dress',
         price_ap: 100,
     }
 ];
