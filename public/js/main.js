@@ -71,15 +71,15 @@ function displaycart() {
     document.getElementById("count").innerHTML = cart.length;
     if (cart.length == 0) {
         document.getElementById('cartItem').innerHTML = "Your cart is empty.";
-        document.getElementById("total").innerHTML = "$ " + 0 + ".00";
-        document.getElementById("total-1").innerHTML = "$ " + 0 + ".00";
+        document.getElementById("total").innerHTML = "$" + 0 + ".00";
+        document.getElementById("total-1").innerHTML = "$" + 0 + ".00";
     }
     else {
         document.getElementById("cartItem").innerHTML = cart.map((items) => {
             var { image_ap, title_ap, price_ap } = items;
             total_ap = total_ap + price_ap;
-            document.getElementById("total").innerHTML = "$ " + total_ap + ".00";
-            document.getElementById("total-1").innerHTML = "$ " + total_ap + ".00";
+            document.getElementById("total").innerHTML = "$" + total_ap + ".00";
+            document.getElementById("total-1").innerHTML = "$" + total_ap + ".00";
             return (
                 `<div class='cart-item'>
                     <div class='row-img'>
