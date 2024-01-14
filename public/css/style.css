@@ -661,8 +661,8 @@ ul.dropdown-content li {
 /* ------------- products ------------- */
 .sidebar-cart {
     justify-content: center;
-    border: 1px solid #000;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
 .head p {
@@ -755,10 +755,6 @@ ul.dropdown-content li {
     color: #fff;
 }
 
-.process-step-wrap div:nth-child(1) .step-number {
-    background-color: #00b1b7;
-}
-
 .step-name {
     font-size: 18px;
 }
@@ -782,3 +778,110 @@ ul.dropdown-content li {
 
 
 /* ------------- checkout ------------- */
+.container-checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.submit-btn{
+    background-color: rgb(71, 84, 201);
+}
+.container-checkout form {
+    padding: 20px;
+    width: 700px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.container-checkout form .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container-checkout form .row .col .inputBox {
+    margin: 15px 0;
+}
+
+.container-checkout form .row .col .inputBox span {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.container-checkout form .row .col .inputBox input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.container-checkout form .row .col .flex {
+    display: flex;
+    gap: 15px;
+}
+
+.container-checkout form .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    color: #fff;
+    background-color: #00b1b7;
+    margin-top: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* ------------- login ------------- */
+.header-text {
+    font-size: 30px;
+}
+
+.conti-text {
+    font-size: 25px;
+}
+
+.form-login {
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid #d3ced2;
+    border-radius: 10px;
+}
+
+.btn-login {
+    width: 100%;
+    color: #000000;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.btn-login:hover {
+    border: 1px solid #2ce1e7;
+    color: #fff;
+    background-color: #2ce1e7;
+}
+
+.btn-register {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+}
+
+.btn-register:hover,
+.btn-register:hover svg {
+    background-color: #00b1b7;
+    fill: #fff;
+}
+
+
+
+
+
