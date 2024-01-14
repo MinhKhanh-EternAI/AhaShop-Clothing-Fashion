@@ -853,7 +853,7 @@ ul.dropdown-content li {
     border-radius: 10px;
 }
 
-.btn-login {
+.btn-login, .btn-register-2 {
     width: 100%;
     color: #000000;
     background-color: #fff;
@@ -862,7 +862,7 @@ ul.dropdown-content li {
     border-radius: 5px;
 }
 
-.btn-login:hover {
+.btn-login:hover, .btn-register-2:hover {
     border: 1px solid #2ce1e7;
     color: #fff;
     background-color: #2ce1e7;
