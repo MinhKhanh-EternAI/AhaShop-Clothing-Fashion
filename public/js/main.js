@@ -37,6 +37,7 @@ const product_ap = [
     }
 ];
 
+
 const categories_ap = [...new Set(product_ap.map((item) => { return item }))]
 
 // Lấy giỏ hàng từ localStorage
@@ -94,3 +95,16 @@ function displaycart() {
 }
 
 displaycart(); // Hiển thị giỏ hàng khi tải trang
+
+/////////////// Thêm sản phẩm ///////////////
+
+function searchproduct() {
+  let sp = document.getElementById('search-input').innerHTML;
+  for
+}
+
+const list_product = [
+  {
+      title_ap: 'Minty Dress',
+  }
+];
