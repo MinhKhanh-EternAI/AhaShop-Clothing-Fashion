@@ -515,6 +515,9 @@ ul.dropdown-content li {
     color: #666;
 }
 
+.pc-wrap {
+    padding: auto;
+}
 /* end path-shop */
 
 /* sidebar */
@@ -883,6 +886,41 @@ ul.dropdown-content li {
 }
 
 
+/* ////////////////////////// */
+.tab-pane {
+    min-height: 200px;
+    height: auto;
+}
 
+.size-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0  ;
+}
 
+.size-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
 
+.size-label {
+    font-weight: bold;
+    width: 20%;
+}
+
+#menu2 a {
+    color: #2ce1e7;
+}
+
+.nav-item a{
+    color: #000;
+}
+.tab-content h1 {
+    font-size: 22px;
+    color: #000;
+}
+
+.tab-content p {
+    font-size: 14px;
+}
